@@ -18,4 +18,9 @@ public class SocialLinks : MonoBehaviour
     {
         Application.OpenURL("https://trello.com/b/Uo14yiDc/astrojumper");
     }
+
+    public void OpenDiscord()
+    {
+        Application.OpenURL("https://discord.gg/r7mEbtFejv");
+    }
 }

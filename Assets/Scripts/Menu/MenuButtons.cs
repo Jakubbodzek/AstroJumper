@@ -7,23 +7,23 @@ using UnityEngine.UI;
 public class MenuButtons : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
-    [SerializeField] private RectTransform startButton;
+    [SerializeField] private RectTransform buttonAnimation;
 
 
 
     private void Start()
     {
-        startButton.GetComponent<Animator>().Play("HoverOff");
+        buttonAnimation.GetComponent<Animator>().Play("HoverOff");
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        startButton.GetComponent<Animator>().Play("HoverOn");
+        buttonAnimation.GetComponent<Animator>().Play("HoverOn");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        startButton.GetComponent<Animator>().Play("HoverOff");
+        buttonAnimation.GetComponent<Animator>().Play("HoverOff");
     }
 
 

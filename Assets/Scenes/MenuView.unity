@@ -2286,16 +2286,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784363247}
-  m_LocalRotation: {x: -0, y: -0, z: 0.23966593, w: 0.9708555}
+  m_LocalRotation: {x: -0, y: -0, z: 0.20274971, w: 0.97923064}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 912448324}
-  m_RootOrder: 0
+  m_Father: {fileID: 2067954934}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.396}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -413, y: -6}
+  m_AnchoredPosition: {x: -223.77063, y: 435.25684}
   m_SizeDelta: {x: 270, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &784363249
@@ -2308,7 +2308,7 @@ Animator:
   m_GameObject: {fileID: 784363247}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 39a759d217b6313469420bf4f3e1e982, type: 2}
+  m_Controller: {fileID: 9100000, guid: 686e99ff74559e041a2dcbe4e2146449, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2515,10 +2515,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0.037847564, w: 0.99928355}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 784363248}
+  m_Children: []
   m_Father: {fileID: 2067954934}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.734}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3039,14 +3038,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ecb598b03c4c5b45bea92168edb3474, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4474,6 +4473,7 @@ RectTransform:
   - {fileID: 1006046113}
   - {fileID: 529553820}
   - {fileID: 57817474}
+  - {fileID: 784363248}
   - {fileID: 912448324}
   m_Father: {fileID: 188686041}
   m_RootOrder: 0

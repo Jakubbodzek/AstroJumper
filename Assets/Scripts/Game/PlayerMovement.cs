@@ -26,6 +26,15 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+    private void Awake()
+    {
+        GameStateManager.Instance.onGameStateChanged += OnGameStateChanged;
+    }
+
+    private void OnDestroy()
+    {
+        GameStateManager.Instance.onGameStateChanged -= OnGameStateChanged;
+    }
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -103,6 +112,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnGameStateChanged(GameState newGameState)
+    {
+        enabled = newGameState == GameState.Gameplay;
+    }
 
 
 }
